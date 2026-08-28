@@ -1,0 +1,50 @@
+{
+	"core:pyre": {
+		"army": [
+			{
+				"creature": "imp",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "cannon",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "hellHound",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "logistics",
+				"level": "basic"
+			},
+			{
+				"skill": "artillery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "hota.cannon:cannon",
+			"creatureLevel": 6
+		},
+		"images": {
+			"specialtySmall": "inferno-plus/icons/specialties/cannon/specialtySmall.png",
+			"specialtyLarge": "inferno-plus/icons/specialties/cannon/specialtyLarge.png",
+			"large": "HPL054HR.PCX",
+			"small": "HPS054HR.PCX"
+		},
+		"texts": {
+			"name": "Pyre",
+			"biography": "No one knows Pyre's real name, but it is rumored that she was once a member of the Humanists, a foul cult bent on eradicating any non-human inhabitants of Erathia. Only she knows what motivates her to serve the Devils of Eeofol.",
+			"specialty": {
+				"name": "Cannon",
+				"description": "Increases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up).",
+				"tooltip": "Artillery Bonus: Cannon"
+			}
+		}
+	}
+}

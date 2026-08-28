@@ -1,0 +1,11 @@
+{
+	"core:familiar" : {
+		"abilities" : {
+			"spelldamageIcon" : {
+				"type" : "NONE",
+				"icon" : "inferno-plus/icons/abilities/familiardummy.png",
+				"description" : "{Familiar's Bond}\nEach Familiar grants +1 Damage on all damage spells."
+			}
+		}
+	}
+}

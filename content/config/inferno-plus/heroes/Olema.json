@@ -1,0 +1,48 @@
+{
+	"core:olema" :{
+		"skills":[
+		         {
+				"level" : "basic",
+				"skill" : "fireMagic"
+		        },
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
+		],
+    
+		"spellbook": ["misfortune"],
+
+		"specialty#override" : {
+			"bonuses" : {
+				"misfortuneTOSPELLBOOK" : {
+					"val" : 3,
+					"subtype" : "spell.misfortune",
+					"type" : "SPELL"
+				},
+				"misfortunePOWERUP" : {
+					"addInfo" : -4,
+					"subtype" : "spell.misfortune",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		},
+
+		"images": {
+			"specialtySmall": "inferno-plus/icons/specialties/misfortune/specialtySmall.png",
+			"specialtyLarge": "inferno-plus/icons/specialties/misfortune/specialtyLarge.png",
+			"large": "HPL059DM.PCX",
+			"small": "HPS059DM.PCX"
+		},
+		
+		"texts" : {
+			"specialty" : {
+				"name" : "misfortune",
+				"description" : "Olema always casts Misfortune are expert level. Misfortune decreases a unit's Luck by -4 rather than -2.).",
+				"tooltip" : "Spell Bonus: Misfortune"
+			}
+		}
+	}
+
+
+}

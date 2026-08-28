@@ -1,0 +1,17 @@
+{
+	"core:ayden" : {
+		"spellbook" : [
+			"curse"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		]
+	}
+}

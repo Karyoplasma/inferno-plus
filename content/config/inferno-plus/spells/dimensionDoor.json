@@ -1,0 +1,18 @@
+{
+	"core:dimensionDoor" : {
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+		"gainChance" : {
+			"core:inferno" : 3
+		},
+		"graphics" : {
+		            "iconBook": "inferno-plus/icons/spells/DDfireBook.png",
+			    "iconScroll": "inferno-plus/icons/spells/DDfireScroll.png"
+	        },
+
+	}
+}

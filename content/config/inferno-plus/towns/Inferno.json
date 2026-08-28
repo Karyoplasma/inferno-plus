@@ -1,0 +1,15 @@
+{
+	"core:inferno" : {
+		"town":{ "buildings":{
+		"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with ballista.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"warMachine" : "ballista"
+				}
+		}}
+	}
+}

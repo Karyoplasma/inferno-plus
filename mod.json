@@ -1,0 +1,58 @@
+{
+	"name" : "inferno-plus",
+	"description" : "A mod to make Inferno less Bleh.",
+	"author" : "nineGardens",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "alastair_jamieson-lane@protonmail.com",
+	"version" : "0.0.2",
+	"modType" : "Other",
+	"language" : "english",
+	"depends" : [
+		"hota",
+		"hota.cannon"
+	],
+	"softDepends" : [
+		"hota.gamebalance.heroes"
+	],
+	"spellEffects" : [
+		"config/inferno-plus/spells/ImpDamageAppend.json"
+	],
+	"spells" : [
+		"config/inferno-plus/spells/blind.json",
+		"config/inferno-plus/spells/dimensionDoor.json",
+		"config/inferno-plus/spells/fireball.json",
+		"config/inferno-plus/spells/fireShield.json",
+		"config/inferno-plus/spells/inferno.json",
+		"config/inferno-plus/spells/misfortune.json",
+		"config/inferno-plus/spells/slayer.json"
+	],
+	"heroClasses" : [
+		"config/inferno-plus/heroes/hereticUpdate.json"
+	],
+	"heroes" : [
+		"config/inferno-plus/heroes/Ash.json",
+		"config/inferno-plus/heroes/Axsis.json",
+		"config/inferno-plus/heroes/Ayden.json",
+		"config/inferno-plus/heroes/Calid.json",
+		"config/inferno-plus/heroes/Fiona.json",
+		"config/inferno-plus/heroes/Octavia.json",
+		"config/inferno-plus/heroes/Olema.json",
+		"config/inferno-plus/heroes/Pyre.json",
+		"config/inferno-plus/heroes/Rashka.json",
+		"config/inferno-plus/heroes/Xarfax.json",
+		"config/inferno-plus/heroes/Xyron.json",
+		"config/inferno-plus/heroes/Zydar.json"
+	],
+	
+	"factions" : [
+		"config/inferno-plus/towns/Inferno.json",
+		"config/inferno-plus/towns/dungeon.json"
+	],
+	
+	"creatures" : [
+		"config/inferno-plus/creatures/familiar-append.json",
+		"config/inferno-plus/creatures/hellHound-append.json",
+		"config/inferno-plus/creatures/cerberus-append.json"
+	]
+}

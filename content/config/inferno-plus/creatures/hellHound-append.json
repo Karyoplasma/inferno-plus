@@ -1,0 +1,21 @@
+{
+	"core:hellHound" : {
+		"abilities" : {
+			"HungerAttacks" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"hidden" : true,
+				"val" : 1
+			},
+			"HungerFerocious" : {
+				"type" : "FEROCITY",
+				"hidden" : true,
+				"val" : -99
+			},
+			"hungerIcon" : {
+				"type" : "NONE",
+				"icon" : "inferno-plus/icons/abilities/houndicon.png",
+				"description" : "{Hunger}\n If the hell hounds do not kill anything with their first attack, they will attack again"
+			}
+		}
+	}
+}

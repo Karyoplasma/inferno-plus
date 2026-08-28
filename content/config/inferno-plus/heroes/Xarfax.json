@@ -1,0 +1,14 @@
+{
+	"core:xarfax" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		]
+	}
+}

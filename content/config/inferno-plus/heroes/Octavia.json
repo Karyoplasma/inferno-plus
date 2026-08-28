@@ -1,0 +1,8 @@
+{
+	"core:octavia" : {
+		"class" : "demoniac",
+		"spellbook" : [
+			"viewEarth"
+		]
+	}
+}

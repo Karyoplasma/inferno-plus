@@ -1,0 +1,19 @@
+{
+	"core:misfortune" : {
+		"level" : 1,
+		"levels" : {
+			"none" : {
+				"cost" : 8
+			},
+			"basic" : {
+				"cost" : 6
+			},
+			"advanced" : {
+				"cost" : 6
+			},
+			"expert" : {
+				"cost" : 6
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"core:zydar" : {
+		"class" : "heretic",
+		"spellbook" : [
+			"magicArrow"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		]
+	}
+}

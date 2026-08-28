@@ -1,0 +1,19 @@
+{
+	"core:fireball" : {
+		"level" : 2,
+		"levels" : {
+			"none" : {
+				"cost" : 10
+			},
+			"basic" : {
+				"cost" : 8
+			},
+			"advanced" : {
+				"cost" : 8
+			},
+			"expert" : {
+				"cost" : 8
+			}
+		}
+	}
+}

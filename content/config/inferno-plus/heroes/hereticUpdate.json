@@ -1,0 +1,10 @@
+{
+	"core:heretic" : {
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 0,
+			"spellpower" : 2,
+			"knowledge" : 2
+		}
+	}
+}

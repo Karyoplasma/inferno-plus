@@ -1,0 +1,14 @@
+{
+	"core:xyron" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		]
+	}
+}
