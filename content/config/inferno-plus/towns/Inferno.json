@@ -9,7 +9,23 @@
 						"wood" : 5
 					},
 					"warMachine" : "ballista"
-				}
+				},
+		"horde1" :{
+			"description" : "The Birthing pools increase imp and familiar production by 12.",
+			"requires" : ["special4"],
+			"cost" : {
+						"mercury" : 1,
+						"gold" : 500,
+						"sulfur" : 1
+					},
+			"bonuses": [
+						{
+							"type": "CREATURE_GROWTH",
+							"subtype": "creatureLevel1",
+							"val": 4
+						}
+					],
+		}
 		}}
 	}
 }

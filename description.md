@@ -5,8 +5,10 @@ This is a small practice mod designed to make Inferno more fun to play.
 My goal is to make Inferno both more competative, and more *interesting*. In the base game too many of Inferno's units are only interesting after upgrade (gogs, hounds and pit fiends), and too many are just completely vanilla. At the same time, too many of their heros have actively janky specials (starting with spells they can't cast, which are also actively bad, for example). 
 
 Changes currently include: 
-* Familiars grant +1 damage to all damage spells. (that is, +1 damage EACH).
 * Hellhounds and cerberi are now "hungry" - if their first attack does not kill anything, they will make a second attack.
+* Familiars grant +1 damage to all damage spells. (that is, +1 damage EACH).
+* Birthing pools now grant +12 imps/familiars... but cost 1 sulfur, 1 mercury, 500 gold, and require the order of fire. Hence... more powerful, but harder to get.
+
 
 * Various tweaks to spell list to make fire magic less bad:
 - Dimension door is now Fire magic.
@@ -31,6 +33,8 @@ Changes currently include:
 
 NOTE: For the time being, I have deliberately pushed TOO FAR - probably some of the hero specials I will need to wheel back in, or cancel. Potentially the power up on familiars goes too far (I suspect it doesn't... but it might).
 The plan is to release this to people, and then reign in the changes which are either too weird or too powerful. (Most likely Fiona's special on weirdness grounds, and familiars special on power grounds). 
+If the power level needs to be pushed higher, I might empower the birthing pools more, or extend the spell damage bonus to include imps as well.
+
 If you wish to get in touch and give feedback you can find me on the VCMI discord with the name nineGardens.
 
 ALSO: Much thanks to Karyoplasma for help with the Imp code, and generally introducing me to the system. You are a legend.
