@@ -8,13 +8,9 @@
 			},
 			"HungerFerocious" : {
 				"type" : "FEROCITY",
-				"hidden" : true,
-				"val" : -99
-			},
-			"hungerIcon" : {
-				"type" : "NONE",
+				"val" : -99,
 				"icon" : "inferno-plus/icons/abilities/houndicon.png",
-				"description" : "{Hunger}\n If the cerberi do not kill anything with their first attack, they will attack again."
+				"description" : "{Hunger}\nIf the Cerberi do not kill anything with their first attack, they will attack again."
 			}
 		}
 	}

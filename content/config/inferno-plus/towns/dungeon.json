@@ -1,15 +1,12 @@
 {
 	"core:dungeon" : {
-		"town":{ "buildings":{	
-		"blacksmith" : {
-					"name" : "Blacksmith",
+		"town" : {
+			"buildings" : {
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Ammo Carts.",
-					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
-					},
 					"warMachine" : "ammoCart"
 				}
-		}}
+			}
+		}
 	}
 }
