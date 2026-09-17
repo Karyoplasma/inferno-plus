@@ -1,0 +1,23 @@
+{
+	"name" : "Hota Gamebalance Heroes compatibility",
+	"author" : "",
+	"contact" : "",
+	"description" : "",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"depends" : [
+		"hota.gamebalance.heroes"
+	],
+	"heroes" : {
+		"core:pyre" : {
+			"specialty" : {
+				"stepSize" : 20
+			},
+			"texts" : {
+				"specialty" : {
+					"description" : "Increases the Attack and Defense skills of any Cannon by 20% for every 6 levels (rounded up)."
+				}
+			}
+		}
+	}
+}

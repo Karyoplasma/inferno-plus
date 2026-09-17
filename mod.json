@@ -13,7 +13,8 @@
 		"hota.cannon"
 	],
 	"softDepends" : [
-		"hota.gamebalance.heroes"
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.startingsarmies"
 	],
 	"creatures" : [
 		"config/inferno-plus/creatures/cerberus-append.json",

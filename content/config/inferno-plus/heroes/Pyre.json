@@ -17,18 +17,9 @@
 				"max" : 4
 			}
 		],
-		"skills" : [
-			{
-				"skill" : "logistics",
-				"level" : "basic"
-			},
-			{
-				"skill" : "artillery",
-				"level" : "basic"
-			}
-		],
-		"specialty" : {
+		"specialty#override" : {
 			"creature" : "hota.cannon:cannon",
+			"stepSize" : 5,
 			"creatureLevel" : 6
 		},
 		"images" : {

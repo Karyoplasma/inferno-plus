@@ -1,11 +1,5 @@
 {
 	"core:fiona" : {
-		"skills" : [
-			{
-				"level" : "advanced",
-				"skill" : "scouting"
-			}
-		],
 		"specialty#override" : {
 			// starts at +1 Attack and then give +1 for every 3 levels reached
 			// the old one (valPer20 = 7, stepSize = 1) increased it every 2 levels at every 8th cycle due to rounding
@@ -24,7 +18,6 @@
 						"stepSize" : 3
 					}
 				},
-
 				"moreHungerAttacksCerb" : {
 					"subtype" : "cerberus",
 					"type" : "HERO_GRANTS_ATTACKS",

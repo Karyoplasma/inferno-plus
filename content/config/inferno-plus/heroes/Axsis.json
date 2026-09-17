@@ -1,16 +1,16 @@
 {
-	"core:axsis" : {
-		"spellbook" : [
+	"core:axsis": {
+		"spellbook": [
 			"stoneSkin"
 		],
-		"skills" : [
+		"skills": [
 			{
-				"level" : "basic",
-				"skill" : "fireMagic"
+				"level": "basic",
+				"skill": "fireMagic"
 			},
 			{
-				"level" : "basic",
-				"skill" : "mysticism"
+				"level": "basic",
+				"skill": "mysticism"
 			}
 		]
 	}
