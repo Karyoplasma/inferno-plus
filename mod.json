@@ -13,19 +13,18 @@
 		"hota.cannon"
 	],
 	"softDepends" : [
-		"hota.gamebalance.heroes"
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.startingsarmies"
 	],
-	"spellEffects" : [
-		"config/inferno-plus/spells/ImpDamageAppend.json"
+	"creatures" : [
+		"config/inferno-plus/creatures/cerberus-append.json",
+		"config/inferno-plus/creatures/familiar-append.json",
+		"config/inferno-plus/creatures/hellHound-append.json",
+		"config/inferno-plus/creatures/imp-append.json"
 	],
-	"spells" : [
-		"config/inferno-plus/spells/blind.json",
-		"config/inferno-plus/spells/dimensionDoor.json",
-		"config/inferno-plus/spells/fireball.json",
-		"config/inferno-plus/spells/fireShield.json",
-		"config/inferno-plus/spells/inferno.json",
-		"config/inferno-plus/spells/misfortune.json",
-		"config/inferno-plus/spells/slayer.json"
+	"factions" : [
+		"config/inferno-plus/towns/dungeon.json",
+		"config/inferno-plus/towns/Inferno.json"
 	],
 	"heroClasses" : [
 		"config/inferno-plus/heroes/hereticUpdate.json"
@@ -44,15 +43,20 @@
 		"config/inferno-plus/heroes/Xyron.json",
 		"config/inferno-plus/heroes/Zydar.json"
 	],
-	
-	"factions" : [
-		"config/inferno-plus/towns/Inferno.json",
-		"config/inferno-plus/towns/dungeon.json"
-	],
-	
-	"creatures" : [
-		"config/inferno-plus/creatures/familiar-append.json",
-		"config/inferno-plus/creatures/hellHound-append.json",
-		"config/inferno-plus/creatures/cerberus-append.json"
+	"scripts" : {
+		"core:damage" : {
+			"patches" : {
+				"append" : "patches/impDamageTest"
+			}
+		}
+	},
+	"spells" : [
+		"config/inferno-plus/spells/blind.json",
+		"config/inferno-plus/spells/dimensionDoor.json",
+		"config/inferno-plus/spells/fireball.json",
+		"config/inferno-plus/spells/fireShield.json",
+		"config/inferno-plus/spells/inferno.json",
+		"config/inferno-plus/spells/misfortune.json",
+		"config/inferno-plus/spells/slayer.json"
 	]
 }
